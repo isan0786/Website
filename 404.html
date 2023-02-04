@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Error 404</title>
+
+	<link type="text/css" rel="stylesheet" media="all" href="https://www.jumpingjackrabbit.com/ui/css/plax.css" />
+    <!--[if lt IE 9]>
+		<style type="text/css">
+		  .download { background: #011A30; }
+		</style>
+	<![endif]-->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2K5MRK');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2K5MRK"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="parallax">
+    <div id="sky"><img src="https://www.jumpingjackrabbit.com/ui/images/bg_moon.gif" /></div>
+    <div id="mountains"></div>
+    <div id="trees"></div>
+    <div id="rabbit">
+</div>
+    <div id="hill"></div>
+    <div id="sign"></div>
+    <div id="content">
+            <div id="content404">
+           
+            <h2>Whoops!</h2>
+            <p style="color: #fff;">You seem to have stumbled off the beaten path.<br />
+                Perhaps you should head <a href="https://www.ishananand.ca">home</a>?</p>
+            <
+        </div>
+</div>
+</div>
+
+
+
+
+    <script src="https://www.jumpingjackrabbit.com/ui/js/jquery.js"></script>
+
+    <script src="https://www.jumpingjackrabbit.com/ui/js/plax.js"></script>
+    <script type="text/javascript">
+
+        jQuery(document).ready(function(){
+            $('#sky').plaxify({"xRange":10,"yRange":0})
+            $('#mountains').plaxify({"xRange":25,"yRange":2})
+            $('#trees').plaxify({"xRange":40,"yRange":8})
+            $('#rabbit').plaxify({"xRange":55,"yRange":14})
+            $('#hill').plaxify({"xRange":90,"yRange":40})
+            $('#sign').plaxify({"xRange":185,"yRange":80})
+            $('#content').plaxify({"xRange":55,"yRange":14})
+            $.plax.enable();
+            $('.downloadlink').click(function(e){
+                e.preventDefault();
+                $('.download').slideDown();
+            });
+      });
+    </script>
+    </body>
+</html>

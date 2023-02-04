@@ -1,0 +1,137 @@
+#side-menu, .side-menu-overlay {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  display: none;
+}
+
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+#side-menu {
+  width: 300px;
+  right: -300px;
+  overflow-y: auto;
+  z-index: 1035;
+  background: #fff;
+  padding: 20px 30px;
+  color: #333;
+  transition: .4s;
+}
+
+body.side-menu-visible #side-menu {
+  transform: translateX(-300px);
+}
+
+#side-menu .contents {
+  margin-top: 15px;
+}
+
+#side-menu .nav-link {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 0;
+}
+
+#side-menu .nav-link:hover {
+  opacity: .8;
+}
+
+#side-menu .close {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.side-menu-overlay {
+  left: 0;
+  min-width: 100%;
+  background: rgba(0,0,0,.4);
+  z-index: 100;
+}
+
+#side-menu.side-menu-left {
+  right: auto;
+  left: -300px;
+}
+
+body.side-menu-visible #side-menu.side-menu-left {
+  transform: translateX(300px);
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  /*background: #ffffff url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif')  no-repeat center center;*/
+  z-index: 99999;
+}
+
+#progressBar {
+  position: fixed;
+}
+
+.container {
+}
+
+@media (max-width: 1170px) {
+  #hero2 {
+    /*width: 100%;*/
+    /*background-color: #6ec54f;*/
+    height: auto;
+    /*max-height: 3800px;*/
+  }
+}
+
+@media (min-width: 1175px) {
+  #hero2 {
+    /*height: auto;*/
+    margin-bottom: 30px;
+    width: 100%;
+    /*background-color: #f19100;*/
+  }
+}
+
+#sliderChart {
+  /*position: relative;*/
+}
+
+#vedioBottomBtn {
+  position: absolute;
+}
+
+@media (max-width: 1173px) {
+  .d-flex.flex-row.justify-content-center {
+    /*background-color: #b52c2c;*/
+  }
+}
+
+#skiller section {
+  background-color: #b52e3c;
+}
+
+@media (max-width: 1170px) {
+  #raghu {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    margin: 30px;
+    height: auto;
+    align-items: center;
+    background-color: #fff;
+  }
+}
+
+#raghu {
+  display: flex;
+  /*position: relative;*/
+  background-color: #fff;
+}
+
+.row.flex-fill {
+}
+
