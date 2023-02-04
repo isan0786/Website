@@ -155,7 +155,7 @@
               <div class="bg-circle _5"></div>
               <div class="bg-circle _6"></div>
            </section>
-       <div class="main-bio-wrap" id="hero">
+       <div class="main-bio-wrap">
           <div class="article">
              <div class="text-block-41">Hello, my name is</div>
              <h1 class="heading-20"><strong class="name">Ishan</strong></h1>
