@@ -319,7 +319,6 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 40px 25px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -webkit-flex-direction: row-reverse;
@@ -876,3 +875,10 @@ status-message {
   margin-top: 35px;
 }
 
+#panel {
+  display: none;
+}
+
+#panel2 {
+  display: none;
+}
